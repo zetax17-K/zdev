@@ -127,6 +127,10 @@ footer p {
 
 /* Media Queries */
 @media (max-width: 768px) {
+    nav {
+        height: 50px;
+    }
+    
     nav ul {
         display: none;
         flex-direction: column;
